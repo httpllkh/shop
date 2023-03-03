@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header .presentation {
+  margin: 50px 0;
+  background: url('https://psv4.userapi.com/c534536/u316394275/docs/d51/946e003ae301/eclipse_wear.png?extra=nM9aKum5PjFeb9owB-K2_iTD5VM-IprgTg1Y3yAcr-J4pXE6xbi2TjsWM2jclGPc9TVbxTUyWUX6v2VYjSEZReP1ZTjHblsUafFfQOjki09tKniuvXEI3m3SwxmqCWmEUG8RC_s5ZxdM') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+header .presentation::after {
+  content: "Лучшая одежда на планете";
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-weight: 800;
+  color: #fff;
+  font-size: 40px;
+  width: 300px;
+
+}
