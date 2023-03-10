@@ -22,9 +22,23 @@ header .logo {
   font-size: 20px;
 }
 
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+}
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
 header .presentation {
   margin: 50px 0;
-  background: url('https://psv4.userapi.com/c534536/u316394275/docs/d51/946e003ae301/eclipse_wear.png?extra=nM9aKum5PjFeb9owB-K2_iTD5VM-IprgTg1Y3yAcr-J4pXE6xbi2TjsWM2jclGPc9TVbxTUyWUX6v2VYjSEZReP1ZTjHblsUafFfQOjki09tKniuvXEI3m3SwxmqCWmEUG8RC_s5ZxdM') no-repeat;
+  background: url('../img/e86649e7-b65b-4c7a-84ba-0a23a8a1a56d.jpg') no-repeat;
   width: 100%;
   height: 500px;
   background-size: cover;
@@ -42,4 +56,4 @@ header .presentation::after {
   font-size: 40px;
   width: 300px;
 
-}
+} 
